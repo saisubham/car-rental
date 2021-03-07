@@ -15,6 +15,10 @@ function increaseTimeValue() {
     totalRentalCost.innerHTML = 100 + t;
     distanceRentalCost.style.textDecoration = "line-through";
     timeRentalCost.style.textDecoration = "";
+  } else {
+    totalRentalCost.innerHTML = 100 + d;
+    timeRentalCost.style.textDecoration = "line-through";
+    distanceRentalCost.style.textDecoration = "";
   }
 }
 
@@ -37,6 +41,10 @@ function decreaseTimeValue() {
     totalRentalCost.innerHTML = 100 + d;
     timeRentalCost.style.textDecoration = "line-through";
     distanceRentalCost.style.textDecoration = "";
+  } else {
+    totalRentalCost.innerHTML = 100 + t;
+    distanceRentalCost.style.textDecoration = "line-through";
+    timeRentalCost.style.textDecoration = "";
   }
 }
 
@@ -57,6 +65,10 @@ function increaseDistanceValue() {
     totalRentalCost.innerHTML = 100 + d;
     timeRentalCost.style.textDecoration = "line-through";
     distanceRentalCost.style.textDecoration = "";
+  } else {
+    totalRentalCost.innerHTML = 100 + t;
+    distanceRentalCost.style.textDecoration = "line-through";
+    timeRentalCost.style.textDecoration = "";
   }
 }
 
@@ -80,5 +92,9 @@ function decreaseDistanceValue() {
     totalRentalCost.innerHTML = 100 + t;
     distanceRentalCost.style.textDecoration = "line-through";
     timeRentalCost.style.textDecoration = "";
+  } else {
+    totalRentalCost.innerHTML = 100 + d;
+    timeRentalCost.style.textDecoration = "line-through";
+    distanceRentalCost.style.textDecoration = "";
   }
 }
